@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+h1, h2, h3, h4, h5, h6, .brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-img {
+    height: 200px;
+    background-image: url('https://raw.githubusercontent.com/cpusillo/assets/main/susan-yin-2JIvboGLeho-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: 1200px;
+    background-position: center;
+}
+
+.red {
+    color: #ea4335;
+}
+.blue {
+    color: #4285F4;
+}
+.green {
+    color: #34A853;
+}
+.yellow {
+    color: #FBBC05;
+}
