@@ -22,7 +22,7 @@ function Results(props){
                                 <img className="img-fluid" alt="Book thumbnail" src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail :
                                         "https://img.icons8.com/cute-clipart/64/000000/no-image.png"}/>
                                         <br/>
-                                    <a href={book.volumeInfo.previewLink} target="_blank" rel="noreferrer" >
+                                    <a href={book.volumeInfo.previewLink} target="_blank" rel="noopener noreferrer" >
                                     <Button variant="danger" className="px-2 mt-2"><FaReadme/></Button>
                                     </a>
                                     <Button variant="danger" className="px-2 ml-1 mt-2" onClick={props.save}><FaSave/></Button>       
